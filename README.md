@@ -1,0 +1,2 @@
+# TwojaForma
+Aplikacja ma na celu ułatwienie planowania treningów oraz ich systematyczność. Użytkownik będzie mógł wybierać rodzaj treningu i ćwiczeń (np. bieganie, brzuszki, pompki) a także ustalać plan na dany okres czasu. Użytkownik po skończonym treningu będzie potwierdzał jego wykonanie. W przypadku niewykonania również będzie miał możliwość zaznaczenia. Użytkownik będzie mógł sprawdzać swoje postępy z wybranego okresu czasu.
