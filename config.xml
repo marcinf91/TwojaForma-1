@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-		id          = "myfirstapp"
+		id          = "TwojaForma"
         version     = "1.0.0" >
 
-    <name>First app</name>
-    <description>My first mobile app</description>
-    <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
-		John Brown
+    <name>Twoja Forma!</name>
+    <description>Aplikacja ma na celu ułatwienie planowania treningów oraz ich systematyczność. 
+	Użytkownik będzie mógł wybierać rodzaj treningu i ćwiczeń (np. bieganie, brzuszki, pompki) a także ustalać plan na dany okres czasu.
+	Użytkownik po skończonym treningu będzie potwierdzał jego wykonanie. W przypadku niewykonania również będzie miał możliwość zaznaczenia.
+	Użytkownik będzie mógł sprawdzać swoje postępy z wybranego okresu czasu.</description>
+    <author href="mateuszdziedzina.com" email="mateusz.dziedzina1@gmail.com">
+		Mateusz Dziedzina
+	</author>
+	 <author href="marcin.feliks.com" email="marcin.feliks91@gmail.com">
+		Marcin Feliks
 	</author>
 	<platform name="android" />
 	
