@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="css/themes/a1.css" />
+ 		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+  		<script src="cordova.js"></script>
+  		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+  		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+		<script src="js/pgb.js"></script>
+	</head>
+	<body onload="init()">
+	<div data-role="page" id="mainPage">
+	
+		<div data-role="header">
+			<h1>Twoja Forma!</h1>
+		</div>
+		
+		<div role="main" class="ui-content">
+			<a href="#otherPage" class="ui-btn ui-btn-corner ui-corner-all ui-shadow">Plan</a>
+			<a href="#otherPage" class="ui-btn ui-btn-corner ui-corner-all ui-shadow" onclick="deviceInfo()">Przypomnienie o posiłkach</a>
+			<a href="#otherPage" class="ui-btn ui-btn-corner ui-corner-all ui-shadow" onclick="deviceInfo()">Postępy</a>
+		</div>
+		
+		<div data-role="footer">
+		
+		<a href="#popupCloseRight" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-corner">Autorzy</a>
+			<div data-role="popup" id="popupCloseRight" class="ui-content" style="max-width:280px">
+    				<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Autorzy aplikacji: </p>
+					<p>Mateusz Dziedzina</p>
+					<p>Marcin Feliks</p>
+			</div>
+			<!-- <h4><a href="#otherPage" class="ui-btn ui-btn-corner ui-corner-all ui-shadow" onclick="deviceInfo()">Autorzy</a></h4> -->
+		</div>
+		
+	</div>
+	
+	
+	<div data-role="page" id="otherPage">
+
+		<div data-role="header">
+			<h1>Druga strona</h1>
+		</div><!-- /header -->
+
+		<div role="main" class="ui-content">
+			<a href="#mainPage" class="ui-btn ui-shadow ui-corner-all  ui-icon-carat-l">Kalendarz</a>
+			<p><a href="#mainPage">Powrót</a></p>
+		</div><!-- /content -->
+
+		<div data-role="footer">
+			<a href="#mainPage" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-carat-l">Powrót</a>
+		</div>
+	</div>
+	</body>
+</html>
